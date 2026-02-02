@@ -1,0 +1,67 @@
+*{
+    margin: 3px;
+    border: 3px;
+    padding: 3px;
+}
+body{
+
+background-color: aliceblue;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+
+}
+
+#H2{
+    text-align: left;
+    background-color: beige;
+}
+
+#H3{
+   text-decoration: underline black;
+}
+
+#P1{
+    border: 3px solid black;
+    border-radius: 10PX;
+    background-color: black;
+    color: white;
+
+}
+
+#P2{
+     border: 3px solid black;
+    border-radius: 10PX;
+    background-color: black;
+    color: white;
+
+}
+
+#table{
+   
+     border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+    font-weight: bold;
+   
+}
+
+#BELOW{
+    font-weight: bold;
+}
+
+#FORM{
+    border: solid;
+    border-color: blue;
+    text-align: left;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
