@@ -1,17 +1,24 @@
 # PROJECT NAME
+
 AKAN NAME GENERATOR
 
 ## PROJECT DESCRIPTION 
+
 This project is used to give the right akan names that is mostly for those living in the western parts of africa .EG: Ghana.
 
 ## Authors information 
+
 NAME: Joshua Barack
 STUDIES:Moringa school
 
 ## Setup instructions 
 
+To run this project on your local environment 
+1. Clone th repository:
 
-## Behaviour driven development (BDD)
+Git clone :https://github.com/Barackjoshua/Akan-name-generator.git
+
+
 
 ## TECHNOLOGIES USED 
 1. Java script
@@ -24,4 +31,4 @@ no. 07994050492
 
 ## LICENCE AND COPYRIGHT INFORMATION
 
-
+@2026 ALL RIGHTS RESERVED
