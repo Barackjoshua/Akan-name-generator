@@ -14,7 +14,7 @@ STUDIES:Moringa school
 ## Setup instructions 
 
 To run this project on your local environment 
-1. Clone th repository:
+1. Clone the repository:
 
 Git clone :https://github.com/Barackjoshua/Akan-name-generator.git
 
