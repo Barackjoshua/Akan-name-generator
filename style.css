@@ -1,86 +1,104 @@
-*{
-    margin: 5px;
-    border: 3px;
-    padding: 5px;
+/* Reset basic spacing */
+* {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
-#img{
-  height: 500px;   
-  width: 1200px;
+/* Body styling */
+body {
+  background-color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 
-
-
-body{
-
-background-color: aliceblue;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-text-align: center;
-
+/* Header */
+#H2 {
+  text-align: left;
+  background-color: beige;
+  padding: 10px;
 }
 
-
-
-#H2{
-    text-align: left;
-    background-color: beige;
+/* Image */
+#img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
-#H3{
-   text-decoration: underline black;
+/* Paragraphs */
+#P1,
+#P2 {
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  margin: 15px auto;
+  width: 80%;
 }
 
-#P1{
-    border: 3px solid black;
-    border-radius: 10PX;
-    background-color: black;
-    color: white;
-
+/* Table */
+#table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 70%;
 }
 
-#P2{
-     border: 3px solid black;
-    border-radius: 10PX;
-    background-color: black;
-    color: white;
-
+#table th,
+#table td {
+  border: 1px solid black;
+  padding: 10px;
 }
 
-#table:hover{
-   transform: scale(1.2);
-     border-color: black;
-    border-style: solid;
-    border-width: 1px;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    overflow: hidden;
-    padding: 10px 5px;
-    word-break: normal;
-    font-weight: bold;
-    
-   
+#table:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+  font-weight: bold;
 }
 
-#BELOW{
-    font-weight: bold;
+/* Below text */
+#BELOW {
+  font-weight: bold;
+  margin-top: 20px;
 }
 
-#FORM{
-    border: solid;
-    border-color: blue;
-    text-align: left;
-    border-radius: 10px;
-    padding: 20px;
-    width: 30%;
-    margin-left: 25%;
-    margin-right: 25%;
-    font-size: medium;
-    font-weight: bold;
+/* Form */
+#FORM {
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  margin: 20px auto;
+  font-size: medium;
+  font-weight: bold;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
 }
 
-#submit:hover{
-    background-color: blue;
-    
+/* Inputs */
+input[type="number"],
+input[type="radio"] {
+  margin: 5px 0 15px 0;
 }
 
+/* Submit button */
+#submit {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
+#submit:hover {
+  background-color: blue;
+  color: white;
+  transition: 0.3s ease;
+}
+
+/* Result text */
+#result {
+  margin-top: 15px;
+  font-weight: bold;
+}
