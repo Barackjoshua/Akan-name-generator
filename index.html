@@ -1,156 +1,84 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AKAN NAME</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h2 id="H2">AKAN</h2>
-      <img
-        src="./image/ChatGPT Image Feb 2, 2026, 05_47_34 PM.png"
-        alt="Akan name generator text in image form"
-        id="img"
-      />
-    </header>
-    <main>
-      <section>
-        <div>
-          <p id="P1">
-            An Akan name generator is a tool used to automatically give Akan
-            names based on specific cultural rules, mainly the day of the week a
-            person was born. Akan names come from the Akan people of Ghana, and
-            each name carries cultural meaning and identity.
-          </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akan Name Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h2 id="H2">AKAN</h2>
+    <img
+      src="./image/ChatGPT Image Feb 2, 2026, 05_47_34 PM.png"
+      alt="Akan name generator text in image form"
+      id="img"
+    />
+  </header>
 
-          <p id="P2">
-            Akan names are based on the day of the week in which one was born in
-            in the Ghanian culture.Their meaning often showing the diffrence
-            between males and females .
-          </p>
-        </div>
-      </section>
+  <main>
+    <section>
+      <p id="P1">
+        An Akan name generator automatically gives Akan names based on the day you were born. Akan names come from the Akan people of Ghana.
+      </p>
 
-      <section>
-        <div>
-          <table id="table" class="table">
-            <tr>
-              <th>Day of the week</th>
-              <th>Female name</th>
-              <th>Male name</th>
-            </tr>
+      <p id="P2">
+        Names differ for males and females depending on the day of the week of birth.
+      </p>
+    </section>
 
-            <tr>
-              <td>Sunday</td>
-              <td>Akosua</td>
-              <td>Kwasi</td>
-            </tr>
+    <section>
+      <table id="table">
+        <tr>
+          <th>Day of the week</th>
+          <th>Female name</th>
+          <th>Male name</th>
+        </tr>
+        <tr><td>Sunday</td><td>Akosua</td><td>Kwasi</td></tr>
+        <tr><td>Monday</td><td>Adwoa</td><td>Kwadwo</td></tr>
+        <tr><td>Tuesday</td><td>Abenaa</td><td>Kwabena</td></tr>
+        <tr><td>Wednesday</td><td>Akua</td><td>Kwaku</td></tr>
+        <tr><td>Thursday</td><td>Yaa</td><td>Yaw</td></tr>
+        <tr><td>Friday</td><td>Afua</td><td>Kofi</td></tr>
+        <tr><td>Saturday</td><td>Ama</td><td>Kwame</td></tr>
+      </table>
+    </section>
 
-            <tr>
-              <td>Monday</td>
-              <td>Adowa</td>
-              <td>Koduwo</td>
-            </tr>
+    <section>
+      <form id="FORM">
+        <label><em>Fill in the form to generate your Akan name:</em></label>
+        <br />
 
-            <tr>
-              <td>Tuesday</td>
-              <td>Abenaa</td>
-              <td>Kwabena</td>
-            </tr>
+        <label for="year">Year:</label>
+        <input type="number" id="year" placeholder="2026" min="1800" max="3000" required />
+        <br />
 
-            <tr>
-              <td>Wednesday</td>
-              <td>Akua</td>
-              <td>Kwaku</td>
-            </tr>
+        <label for="month">Month:</label>
+        <input type="number" id="month" placeholder="12" min="1" max="12" required />
+        <br />
 
-            <tr>
-              <td>Thursday</td>
-              <td>Yaa</td>
-              <td>Yaw</td>
-            </tr>
+        <label for="day">Date:</label>
+        <input type="number" id="day" placeholder="31" min="1" max="31" required />
+        <br />
 
-            <tr>
-              <td>Friday</td>
-              <td>Afua</td>
-              <td>Kofi</td>
-            </tr>
+        <h4>Select your gender:</h4>
+        <label>Male</label>
+        <input type="radio" name="gender" value="male" />
+        <label>Female</label>
+        <input type="radio" name="gender" value="female" />
+        <br /><br />
 
-            <tr>
-              <td>Saturday</td>
-              <td>Ama</td>
-              <td>Kwame</td>
-            </tr>
-          </table>
-        </div>
-      </section>
+        <input type="submit" id="submit" value="Generate" />
+        <p id="result">Your Akan name will appear here.</p>
+      </form>
+    </section>
+  </main>
 
-      <div>
-        <p id="BELOW">
-          Below, you will add your birth date and day of the week so that we can
-          be able to calculate the Akan name.
-        </p>
-        <section>
-          <form action="" id="FORM">
-            <label for="" id="TEXT">
-              <em> Fill in the form to generate your Akan name:</em>
-            </label>
+  <footer>
+    <hr />
+    privacy policy
+  </footer>
 
-            <br />
-
-            <label for="" id="Year">Year:</label>
-            <input
-              type="number"
-              placeholder="2026"
-              min="1800"
-              max="3000"
-              required
-            />
-
-            <br />
-
-            <label for="">Month</label>
-            <input type="number" placeholder="12" min="1" max="12" required />
-
-            <br />
-
-            <label for="">Date</label>
-            <input type="number" placeholder="31" min="1" max="31" required />
-
-            <br />
-
-            <div>
-              <h4>Select your gender :</h4>
-            </div>
-
-            <div>
-              <label for="">male</label>
-              <input type="radio" name="title" />
-            </div>
-
-            <div>
-              <label for="">Female</label>
-              <input type="radio" name="title" />
-            </div>
-
-            <div>
-              <input type="submit" placeholder="submit" id="submit" />
-            </div>
-
-            <div>
-              <p id="result">Your Akan name is:</p>
-            </div>
-          </form>
-        </section>
-
-        <footer>
-          <hr />
-          privacy policy
-        </footer>
-      </div>
-    </main>
-    <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
